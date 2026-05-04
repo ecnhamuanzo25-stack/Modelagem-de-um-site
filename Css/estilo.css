@@ -1,0 +1,84 @@
+body{
+    background: rgb(110, 109, 105);
+}
+
+header{
+   background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-flow: row wrap;
+  padding: 10px;
+
+}
+
+h1{
+
+
+}
+
+nav{
+    background: rgb(80, 78, 78);
+    color: white;
+    padding: 10px;
+   
+}
+nav >a{
+    text-decoration: none;
+    color: aliceblue;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    background: black;
+    border-radius: 5px;
+
+} 
+nav>a:hover{
+    background-color: aliceblue;
+    color: black;
+    transition: background-color .5s;
+}
+
+main{
+    background-color: white;
+    padding: 10px;
+    margin:10px;
+    border-radius: 5px;
+
+}
+
+article{
+    background: rgb(138, 133, 133);
+    padding: 10px;
+}
+
+article>aside{
+    background: rgb(190, 184, 184);
+}
+
+footer{background: black;
+    color: aliceblue;
+    text-align: center;
+    padding: 5px;
+
+
+}
+
+.conteiner{
+    background: rgb(73, 70, 70);
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto;
+    gap: 10px;
+    align-content: stretch;
+    align-items:stretch ;
+    justify-items: stretch;
+    justify-content: stretch;
+}
+
+.item{
+    background-color: antiquewhite;
+    border: 1px solid black;
+    text-align: center;
+    padding:10px ;
+}
